@@ -14,7 +14,7 @@ function App() {
 
   const handleSystemSelect = (system: 'comparador' | 'insucessos' | 'dafiti' | 'evolutivo') => {
     if (system === 'evolutivo') {
-      window.open('https://evolutivorotas.vercel.app/', '_blank');
+      window.open('https://evolutivo-7-0.vercel.app/', '_blank');
       return;
     }
     setSelectedSystem(system);
